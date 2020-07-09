@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 public class Post {
     private String id;
-    private String owner_id;
+    private String ownerId;
     private CommentsInfo commentsInfo;
     private Article article;
     private boolean like;
