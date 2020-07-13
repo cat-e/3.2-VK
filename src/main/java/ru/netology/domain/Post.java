@@ -16,15 +16,17 @@ public class Post {
     private boolean canPinned;
     private boolean isFavorite;
     private int fromId;
-    private String createdBy;
+    private int createdBy;
     private int replyOwnerId;
     private int replyPostId;
     private String copyright;
-    private String views;
+    private ViewsInfo viewsInfo;
     private String postType;
-    private String geo;
+    private Geo geo;
     private int signerId;
     private boolean markedAsAds;
     private int postponedId;
+    private RepostsInfo repostsInfo;
+    private LikesInfo likesInfo;
 
 }
